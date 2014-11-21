@@ -1,4 +1,4 @@
-update=Tuesday 18 November 2014 11:17:34 PM IST
+update=Friday 21 November 2014 11:34:18 PM IST
 version=1
 last_client=kicad
 [cvpcb]
@@ -31,13 +31,6 @@ LibDir=
 [eeschema/libraries]
 LibName1=MAPone
 LibName2=power
-LibName3=device
-LibName4=transistors
-LibName5=conn
-LibName6=linear
-LibName7=regul
-LibName8=interface
-LibName9=atmel
-LibName10=CPL
+LibName3=CPL
 [general]
 version=1

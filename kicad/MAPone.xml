@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/samata/projects-git/MAPone/kicad/MAPone.sch</source>
+    <date>Friday 21 November 2014 10:26:16 PM IST</date>
+    <tool>Eeschema 0.201411181401+5290~19~ubuntu14.10.1-product</tool>
+  </design>
+  <components>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>C2</footprint>
+      <libsource lib="MAPone" part="C_CPL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B82D2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>RC03</footprint>
+      <libsource lib="MAPone" part="R_CPL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B82ED</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Blink</value>
+      <footprint>led_5mm_blue</footprint>
+      <libsource lib="MAPone" part="LED_CPL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B82F4</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>AREF</value>
+      <footprint>pin_strip_3</footprint>
+      <libsource lib="MAPone" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B82FD</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>Power</value>
+      <footprint>pin_strip_7</footprint>
+      <libsource lib="MAPone" part="CONN_7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B830C</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>ANALOG</value>
+      <footprint>pin_strip_6</footprint>
+      <libsource lib="MAPone" part="CONN_6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B8313</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>IO_H</value>
+      <footprint>pin_strip_8</footprint>
+      <libsource lib="MAPone" part="CONN_10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B8323</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>IO_L</value>
+      <footprint>pin_strip_8</footprint>
+      <libsource lib="MAPone" part="CONN_8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B832A</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>V_SEL</value>
+      <footprint>pin_strip_3</footprint>
+      <libsource lib="MAPone" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B8332</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_1</value>
+      <footprint>vite_3mm</footprint>
+      <libsource lib="MAPone" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B8348</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_1</value>
+      <footprint>vite_3mm</footprint>
+      <libsource lib="MAPone" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B834F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100u</value>
+      <footprint>CP_5x11mm</footprint>
+      <libsource lib="MAPone" part="C_Polarized_CPL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B8357</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>RC03</footprint>
+      <libsource lib="MAPone" part="R_CPL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B835E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>PWR</value>
+      <footprint>led_5mm_blue</footprint>
+      <libsource lib="MAPone" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B8365</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>C2</footprint>
+      <libsource lib="MAPone" part="C_CPL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B8379</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>7805</value>
+      <footprint>TO-220_Vertical</footprint>
+      <libsource lib="MAPone" part="7805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B8383</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>C2</footprint>
+      <libsource lib="MAPone" part="C_CPL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B838A</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>C2</footprint>
+      <libsource lib="MAPone" part="C_CPL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B839B</tstamp>
+    </comp>
+    <comp ref="H8">
+      <value>FTDI</value>
+      <footprint>pin_strip_6</footprint>
+      <libsource lib="MAPone" part="CONN_6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B83A2</tstamp>
+    </comp>
+    <comp ref="H9">
+      <value>ISP</value>
+      <footprint>pin_strip_3x2</footprint>
+      <libsource lib="MAPone" part="CONN_6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B83AC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>C2</footprint>
+      <libsource lib="MAPone" part="C_CPL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B83D4</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RST</value>
+      <footprint>SW_PB_V</footprint>
+      <datasheet>http://industrial.panasonic.com/www-data/pdf/ATK0000/ATK0000CE32.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">P10884S-ND</field>
+      </fields>
+      <libsource lib="MAPone" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B83DD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>RC03</footprint>
+      <libsource lib="MAPone" part="R_CPL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B83F3</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>16MHz</value>
+      <footprint>XTAL</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/w_hinm/L0430E.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">490-1214-ND</field>
+      </fields>
+      <libsource lib="MAPone" part="CRYSTAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B83FB</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ATMEGA328-P</value>
+      <footprint>dil_28-300_socket</footprint>
+      <libsource lib="MAPone" part="ATMEGA8-P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B8402</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_CPL</value>
+      <libsource lib="MAPone" part="D_CPL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546BA3AF</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>BARREL_JACK</value>
+      <libsource lib="MAPone" part="BARREL_JACK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546F6945</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB-Micro</value>
+      <libsource lib="MAPone" part="USB-Micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546F6B4E</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_1</value>
+      <footprint>vite_3mm</footprint>
+      <libsource lib="MAPone" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546F7776</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_1</value>
+      <footprint>vite_3mm</footprint>
+      <libsource lib="MAPone" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546F77D2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MAPone" part="LED_CPL">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_CPL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Anode" type="passive"/>
+        <pin num="2" name="Cathode" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="D_CPL">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_CPL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Anode" type="passive"/>
+        <pin num="2" name="Cathode" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+        <field name="Footprint">SW_PB_V</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-data/pdf/ATK0000/ATK0000CE32.pdf</field>
+        <field name="DigiKey">P10884S-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="CONN_10">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="7805">
+      <aliases>
+        <alias>LM7805</alias>
+        <alias>LM7812</alias>
+        <alias>78L05</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7805</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="input"/>
+        <pin num="VI" name="VI" type="input"/>
+        <pin num="VO" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="CONN_6">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="CONN_3">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CONN_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="CONN_8">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="USB-Micro">
+      <description>USB Mini B connector</description>
+      <footprints>
+        <fp>USB-Mini-B-Jack</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">USB-Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="T1" name="T1" type="passive"/>
+        <pin num="T2" name="T2" type="passive"/>
+        <pin num="T3" name="T3" type="passive"/>
+        <pin num="T4" name="T4" type="passive"/>
+        <pin num="T5" name="T5" type="passive"/>
+        <pin num="T6" name="T6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="ATMEGA8-P">
+      <footprints>
+        <fp>28DIP-ELL600</fp>
+        <fp>28dip600</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATMEGA8-P</field>
+        <field name="Footprint">DIL28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PC6(/RESET)" type="BiDi"/>
+        <pin num="2" name="PD0(RXD)" type="BiDi"/>
+        <pin num="3" name="PD1(TXD)" type="BiDi"/>
+        <pin num="4" name="PD2(INT0)" type="BiDi"/>
+        <pin num="5" name="PD3(INT1)" type="BiDi"/>
+        <pin num="6" name="PD4(XCK/T0)" type="BiDi"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="PB6(XTAL1/TOSC1)" type="BiDi"/>
+        <pin num="10" name="PB7(XTAL2/TOSC2)" type="BiDi"/>
+        <pin num="11" name="PD5(T1)" type="BiDi"/>
+        <pin num="12" name="PD6(AIN0)" type="BiDi"/>
+        <pin num="13" name="PD7(AIN1)" type="BiDi"/>
+        <pin num="14" name="PB0(ICP)" type="BiDi"/>
+        <pin num="15" name="PB1(OC1A)" type="BiDi"/>
+        <pin num="16" name="PB2(SS/OC1B)" type="BiDi"/>
+        <pin num="17" name="PB3(MOSI/OC2)" type="BiDi"/>
+        <pin num="18" name="PB4(MISO)" type="BiDi"/>
+        <pin num="19" name="PB5(SCK)" type="BiDi"/>
+        <pin num="20" name="AVCC" type="power_in"/>
+        <pin num="21" name="AREF" type="power_in"/>
+        <pin num="22" name="AGND" type="power_in"/>
+        <pin num="23" name="PC0(ADC0)" type="BiDi"/>
+        <pin num="24" name="PC1(ADC1)" type="BiDi"/>
+        <pin num="25" name="PC2(ADC2)" type="BiDi"/>
+        <pin num="26" name="PC3(ADC3)" type="BiDi"/>
+        <pin num="27" name="PC4(ADC4/SDA)" type="BiDi"/>
+        <pin num="28" name="PC5(ADC5/SCL)" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="BARREL_JACK">
+      <description>DC Barrel Jack</description>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="CRYSTAL">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="~" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="CONN_7">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="C_CPL">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_CPL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="C_Polarized_CPL">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_CPL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAPone" part="R_CPL">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_CPL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MAPone">
+      <uri>/home/samata/projects-git/MAPone/kicad/MAPone.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="D3" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J2" pin="T1"/>
+      <node ref="J2" pin="T2"/>
+      <node ref="J2" pin="T3"/>
+      <node ref="J2" pin="T4"/>
+      <node ref="J2" pin="T5"/>
+      <node ref="J2" pin="T6"/>
+      <node ref="U1" pin="GND"/>
+      <node ref="C4" pin="2"/>
+      <node ref="H8" pin="1"/>
+      <node ref="H8" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="X1" pin="~"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="22"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="H9" pin="6"/>
+      <node ref="H2" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="H7" pin="7"/>
+      <node ref="H2" pin="5"/>
+    </net>
+    <net code="2" name="/RST">
+      <node ref="H9" pin="5"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="H2" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="3" name="/MOSI_P">
+      <node ref="H9" pin="4"/>
+      <node ref="U2" pin="17"/>
+      <node ref="H7" pin="4"/>
+    </net>
+    <net code="4" name="/SCK">
+      <node ref="R3" pin="1"/>
+      <node ref="H7" pin="6"/>
+      <node ref="U2" pin="19"/>
+      <node ref="H9" pin="3"/>
+    </net>
+    <net code="5" name="/5V">
+      <node ref="H5" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H2" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="H1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="20"/>
+      <node ref="H9" pin="2"/>
+    </net>
+    <net code="6" name="/MISO">
+      <node ref="H9" pin="1"/>
+      <node ref="H7" pin="5"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="8" name="/V_IN">
+      <node ref="C2" pin="1"/>
+      <node ref="H2" pin="7"/>
+      <node ref="U1" pin="VI"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="11" name="/V_USB">
+      <node ref="J2" pin="1"/>
+      <node ref="H1" pin="3"/>
+      <node ref="H8" pin="3"/>
+    </net>
+    <net code="12" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="H8" pin="6"/>
+    </net>
+    <net code="13" name="/RXD">
+      <node ref="H8" pin="4"/>
+      <node ref="U2" pin="2"/>
+      <node ref="H6" pin="1"/>
+    </net>
+    <net code="14" name="/V_REG">
+      <node ref="U1" pin="VO"/>
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(P3-Pad1)">
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="17" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="18" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="20" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="21" name="Net-(P4-Pad1)">
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="22" name="/PD7">
+      <node ref="H6" pin="8"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="23" name="/PD6_P">
+      <node ref="H6" pin="7"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="24" name="Net-(U2-Pad9)">
+      <node ref="X1" pin="1"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="25" name="/PB0">
+      <node ref="H7" pin="1"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="26" name="/PD4">
+      <node ref="U2" pin="6"/>
+      <node ref="H6" pin="5"/>
+    </net>
+    <net code="27" name="/PD3_P">
+      <node ref="U2" pin="5"/>
+      <node ref="H6" pin="4"/>
+    </net>
+    <net code="28" name="/PD2">
+      <node ref="H6" pin="3"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="29" name="/TXD">
+      <node ref="H6" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="H8" pin="5"/>
+    </net>
+    <net code="30" name="Net-(U2-Pad10)">
+      <node ref="X1" pin="2"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="31" name="Net-(D1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="32" name="/PD5_P">
+      <node ref="U2" pin="11"/>
+      <node ref="H6" pin="6"/>
+    </net>
+    <net code="33" name="/AD4_SDA">
+      <node ref="U2" pin="27"/>
+      <node ref="H7" pin="9"/>
+      <node ref="H4" pin="5"/>
+    </net>
+    <net code="34" name="/SS_P">
+      <node ref="U2" pin="16"/>
+      <node ref="H7" pin="3"/>
+    </net>
+    <net code="35" name="/PB1_P">
+      <node ref="H7" pin="2"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="36" name="/AREF">
+      <node ref="H7" pin="8"/>
+      <node ref="H5" pin="3"/>
+    </net>
+    <net code="37" name="/3V3">
+      <node ref="H2" pin="3"/>
+    </net>
+    <net code="38" name="/AD3">
+      <node ref="U2" pin="26"/>
+      <node ref="H4" pin="4"/>
+    </net>
+    <net code="39" name="/AD5_SCL">
+      <node ref="H7" pin="10"/>
+      <node ref="H4" pin="6"/>
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="40" name="/AD2">
+      <node ref="U2" pin="25"/>
+      <node ref="H4" pin="3"/>
+    </net>
+    <net code="41" name="/AD1">
+      <node ref="H4" pin="2"/>
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="42" name="/AD0">
+      <node ref="U2" pin="23"/>
+      <node ref="H4" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="44" name="/VREF">
+      <node ref="H5" pin="2"/>
+      <node ref="U2" pin="21"/>
+      <node ref="C5" pin="1"/>
+    </net>
+  </nets>
+</export>

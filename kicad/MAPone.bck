@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BARREL_JACK
+D DC Barrel Jack
+$ENDCMP
+#
 #End Doc Library

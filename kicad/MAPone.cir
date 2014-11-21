@@ -1,0 +1,38 @@
+* EESchema Netlist Version 1.1 (Spice format) creation date: Friday 21 November 2014 10:28:25 PM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+*Sheet Name:/
+C5  /VREF GND 100n		
+R3  /SCK Net-_D3-Pad1_ 1k		
+D3  Net-_D3-Pad1_ GND Blink		
+H5  /5V /VREF /AREF AREF		
+H2  /5V /RST ? /5V GND GND /V_IN Power		
+H4  /AD0 /AD1 /AD2 /AD3 /AD4_SDA /AD5_SCL ANALOG		
+H7  /PB0 /PB1_P /SS_P /MOSI_P /MISO /SCK GND /AREF /AD4_SDA /AD5_SCL IO_H		
+H6  /RXD /TXD /PD2 /PD3_P /PD4 /PD5_P /PD6_P /PD7 IO_L		
+H1  /V_REG /5V /V_USB V_SEL		
+P2  ? CONN_1		
+P1  ? CONN_1		
+C2  /V_IN GND 100u		
+R2  Net-_D2-Pad1_ /5V 1k		
+D2  Net-_D2-Pad1_ GND PWR		
+C3  GND /V_IN 100n		
+U1  GND /V_IN /V_REG 7805		
+C4  /5V GND 100n		
+C6  /RST Net-_C6-Pad2_ 100n		
+H8  GND GND /V_USB /RXD /TXD Net-_C6-Pad2_ FTDI		
+H9  /MISO /5V /SCK /MOSI_P /RST GND ISP		
+C1  /5V GND 100n		
+SW1  GND /RST RST		
+R1  /5V /RST 10k		
+X1  Net-_U2-Pad9_ Net-_U2-Pad10_ GND 16MHz		
+U2  /RST /RXD /TXD /PD2 /PD3_P /PD4 /5V GND Net-_U2-Pad9_ Net-_U2-Pad10_ /PD5_P /PD6_P /PD7 /PB0 /PB1_P /SS_P /MOSI_P /MISO /SCK /5V /VREF GND /AD0 /AD1 /AD2 /AD3 /AD4_SDA /AD5_SCL ATMEGA328-P		
+D1  Net-_D1-Pad1_ /V_IN D_CPL		
+J1  Net-_D1-Pad1_ GND ? BARREL_JACK		
+J2  /V_USB ? ? ? GND GND GND GND GND GND GND USB-Micro		
+P3  ? CONN_1		
+P4  ? CONN_1		
+
+.end
