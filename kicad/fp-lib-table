@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name MAPone)(type Legacy)(uri ${KIPRJMOD}/MAPone_footprints.mod)(options "")(descr "MAPone footprints"))
+  (lib (name uControl)(type Legacy)(uri ${KIPRJMOD}/uControl.mod)(options "")(descr uControl))
+  (lib (name bebl_v2)(type Legacy)(uri ${KIPRJMOD}/bebl_v2.mod)(options "")(descr bebl))
+  (lib (name BADGEr)(type Legacy)(uri ${KIPRJMOD}/BADGEr_fp.mod)(options "")(descr ""))
+)
