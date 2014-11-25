@@ -5,4 +5,5 @@
   (lib (name BADGEr)(type Legacy)(uri ${KIPRJMOD}/BADGEr_fp.mod)(options "")(descr ""))
   (lib (name MAPone.pretty)(type KiCad)(uri ${KIPRJMOD}/MAPone.pretty)(options "")(descr "MAPone pretty"))
   (lib (name Arduino)(type Legacy)(uri ${KIPRJMOD}/arduino_shields.mod)(options "")(descr "Arduino Shields"))
+  (lib (name alamode)(type Legacy)(uri ${KIPRJMOD}/aLaMode_v3.mod)(options "")(descr alamode))
 )
