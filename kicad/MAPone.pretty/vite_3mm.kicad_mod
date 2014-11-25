@@ -1,0 +1,16 @@
+(module BADGEr:vite_3mm (layer F.Cu) (tedit 4F5B3BD6)
+  (descr "vite 2,5mm")
+  (attr smd)
+  (fp_text reference P4 (at 0 1.0795) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CONN_1 (at 0.0635 -0.381) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 3.048 3.048) (drill 2.54) (layers *.Cu *.SilkS *.Mask))
+  (model BADGER_v41_lib/BADGER_3D/vite_2mm5.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

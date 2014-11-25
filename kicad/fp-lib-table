@@ -3,4 +3,6 @@
   (lib (name uControl)(type Legacy)(uri ${KIPRJMOD}/uControl.mod)(options "")(descr uControl))
   (lib (name bebl_v2)(type Legacy)(uri ${KIPRJMOD}/bebl_v2.mod)(options "")(descr bebl))
   (lib (name BADGEr)(type Legacy)(uri ${KIPRJMOD}/BADGEr_fp.mod)(options "")(descr ""))
+  (lib (name MAPone.pretty)(type KiCad)(uri ${KIPRJMOD}/MAPone.pretty)(options "")(descr "MAPone pretty"))
+  (lib (name Arduino)(type Legacy)(uri ${KIPRJMOD}/arduino_shields.mod)(options "")(descr "Arduino Shields"))
 )
