@@ -47,7 +47,7 @@
   (pad 26 thru_hole oval (at -11.43 -3.81) (size 1.5748 2.286) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 27 thru_hole oval (at -13.97 -3.81) (size 1.5748 2.286) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 28 thru_hole oval (at -16.51 -3.81) (size 1.5748 2.286) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (model dil/dil_28-w300.wrl
+  (model /home/samata/projects-git/MAPone/kicad/MAPone_3D/dil_28-300_socket.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,4 +1,4 @@
-(module uControl:SW-PB (layer F.Cu) (tedit 516432A3)
+(module SW-PB (layer F.Cu) (tedit 516432A3)
   (descr "PCB pushbutton, Tyco FSM6x6 series")
   (tags pushbutton)
   (fp_text reference SW1 (at 0 -5.5245) (layer F.SilkS)
@@ -20,7 +20,7 @@
   (pad 2 thru_hole circle (at 2.25 3.25) (size 2.54 2.54) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 2.25 -3.25) (size 2.54 2.54) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at -2.25 3.25) (size 2.54 2.54) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (model "uControl_Libs/3D Modules/pcb_push.wrl"
+  (model /home/samata/projects-git/MAPone/kicad/MAPone_3D/pcb_push.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

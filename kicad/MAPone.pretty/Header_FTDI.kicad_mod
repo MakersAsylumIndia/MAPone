@@ -1,4 +1,4 @@
-(module BADGEr:Header_FTDI (layer F.Cu) (tedit 5035E3B8)
+(module Header_FTDI (layer F.Cu) (tedit 5035E3B8)
   (descr "Connecteur 6 pins")
   (tags "CONN DEV")
   (attr smd)
@@ -80,7 +80,7 @@
   (pad 4 thru_hole circle (at 1.27 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 5 thru_hole circle (at 3.81 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 6 thru_hole circle (at 6.35 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (model BADGER_v41_lib/BADGER_3D/pins_array_6x1.wrl
+  (model /home/samata/projects-git/MAPone/kicad/MAPone_3D/Pin_Header_Straight_1x06.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,227 +1,227 @@
-Cmp-Mod V01 Created by Cvpcb 0.201411181401+5290~19~ubuntu14.10.1-product   date = Monday 24 November 2014 10:15:18 PM IST
+Cmp-Mod V01 Created by Cvpcb 0.201411181401+5290~19~ubuntu14.10.1-product   date = Wednesday 26 November 2014 11:30:27 PM IST
 
 BeginCmp
 TimeStamp = /546B83D4;
 Reference = C1;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor7x2RM5;
+IdModule  = MAPone.pretty:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B8357;
 Reference = C2;
 ValeurCmp = 100u;
-IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5;
+IdModule  = MAPone.pretty:Elko_vert_11.2x6.3mm_RM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B8379;
 Reference = C3;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor7x2RM5;
+IdModule  = MAPone.pretty:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B838A;
 Reference = C4;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor7x2RM5;
+IdModule  = MAPone.pretty:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B82D2;
 Reference = C5;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor7x2RM5;
+IdModule  = MAPone.pretty:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B839B;
 Reference = C6;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor7x2RM5;
+IdModule  = MAPone.pretty:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54735263;
 Reference = C7;
 ValeurCmp = 22pF;
-IdModule  = Discret:C1;
+IdModule  = MAPone.pretty:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54735491;
 Reference = C8;
 ValeurCmp = 22pF;
-IdModule  = Discret:C1;
+IdModule  = MAPone.pretty:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /546BA3AF;
 Reference = D1;
 ValeurCmp = 1N4007;
-IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+IdModule  = MAPone.pretty:Diode_DO-41_SOD81_Vertical_KathodeUp;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B8365;
 Reference = D2;
 ValeurCmp = PWR;
-IdModule  = LEDs:LED-5MM;
+IdModule  = MAPone.pretty:LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B82F4;
 Reference = D3;
 ValeurCmp = Blink;
-IdModule  = LEDs:LED-5MM;
+IdModule  = MAPone.pretty:LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B8332;
 Reference = H1;
 ValeurCmp = V_SEL;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+IdModule  = MAPone.pretty:Header_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B830C;
 Reference = H2;
 ValeurCmp = Power;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x07;
+IdModule  = MAPone.pretty:Socket_Strip_Straight_1x06;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B8313;
 Reference = H4;
 ValeurCmp = ANALOG;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+IdModule  = MAPone.pretty:Socket_Strip_Straight_1x06;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B82FD;
 Reference = H5;
 ValeurCmp = AREF;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+IdModule  = MAPone.pretty:Header_A_REF;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B832A;
 Reference = H6;
 ValeurCmp = IO_L;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
+IdModule  = MAPone.pretty:Socket_Strip_Straight_1x08;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B8323;
 Reference = H7;
 ValeurCmp = IO_H;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+IdModule  = MAPone.pretty:Socket_Strip_Straight_1x08;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B83A2;
 Reference = H8;
 ValeurCmp = FTDI;
-IdModule  = BADGEr:Header_FTDI;
+IdModule  = MAPone.pretty:Header_FTDI;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B83AC;
 Reference = H9;
 ValeurCmp = ISP;
-IdModule  = BADGEr:Header_ICSP;
+IdModule  = MAPone.pretty:Header_ICSP;
 EndCmp
 
 BeginCmp
 TimeStamp = /546F6945;
 Reference = J1;
 ValeurCmp = BARREL_JACK;
-IdModule  = uControl:JACK_ALIM;
+IdModule  = MAPone.pretty:JACK_ALIM;
 EndCmp
 
 BeginCmp
 TimeStamp = /546F6B4E;
 Reference = J2;
 ValeurCmp = USB-Micro;
-IdModule  = BADGEr:USB_B_Micro;
+IdModule  = MAPone.pretty:USB_B_Micro;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B834F;
 Reference = P1;
 ValeurCmp = CONN_1;
-IdModule  = BADGEr:vite_3mm;
+IdModule  = MAPone.pretty:vite_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B8348;
 Reference = P2;
 ValeurCmp = CONN_1;
-IdModule  = BADGEr:vite_3mm;
+IdModule  = MAPone.pretty:vite_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /546F7776;
 Reference = P3;
 ValeurCmp = CONN_1;
-IdModule  = BADGEr:vite_3mm;
+IdModule  = MAPone.pretty:vite_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /546F77D2;
 Reference = P4;
 ValeurCmp = CONN_1;
-IdModule  = BADGEr:vite_3mm;
+IdModule  = MAPone.pretty:vite_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B83F3;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+IdModule  = MAPone.pretty:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B835E;
 Reference = R2;
 ValeurCmp = 1k;
-IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+IdModule  = MAPone.pretty:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B82ED;
 Reference = R3;
 ValeurCmp = 1k;
-IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+IdModule  = MAPone.pretty:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B83DD;
 Reference = SW1;
 ValeurCmp = RST;
-IdModule  = uControl:SW-PB;
+IdModule  = MAPone.pretty:SW-PB;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B8383;
 Reference = U1;
 ValeurCmp = 7805;
-IdModule  = Discret:LM78XXV;
+IdModule  = MAPone.pretty:LM78XXV;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B8402;
 Reference = U2;
 ValeurCmp = ATMEGA328-P;
-IdModule  = Sockets_DIP:DIP-28__300_ELL;
+IdModule  = MAPone.pretty:DIP-28__300_ELL_ZIF;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B83FB;
 Reference = X1;
 ValeurCmp = 16MHz;
-IdModule  = Crystals:Crystal_HC49-U_Vertical_3Pin;
+IdModule  = MAPone.pretty:Crystal_HC49-U_Vertical_3Pin;
 EndCmp
 
 EndListe

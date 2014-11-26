@@ -1,4 +1,4 @@
-(module BADGEr:Header_ICSP (layer F.Cu) (tedit 4FDCC850)
+(module Header_ICSP (layer F.Cu) (tedit 4FDCC850)
   (descr "Connecteur 6 pins")
   (tags "CONN DEV")
   (attr smd)
@@ -68,7 +68,7 @@
   (pad 4 thru_hole circle (at 0 -1.27) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 5 thru_hole circle (at 2.54 1.27) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 6 thru_hole rect (at 2.54 -1.27) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (model BADGER_v41_lib/BADGER_3D/pin_strip_3x2.wrl
+  (model /home/samata/projects-git/MAPone/kicad/MAPone_3D/pin_strip_3x2.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

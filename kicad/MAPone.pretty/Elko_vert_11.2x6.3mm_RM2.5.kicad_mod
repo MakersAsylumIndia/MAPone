@@ -1,4 +1,4 @@
-(module Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5 (layer F.Cu) (tedit 5454A15D)
+(module Elko_vert_11.2x6.3mm_RM2.5 (layer F.Cu) (tedit 5454A15D)
   (descr "Electrolytic Capacitor, vertical, diameter 6,3mm, RM 2,5mm, radial,")
   (tags "Electrolytic Capacitor, vertical, diameter 6,3mm, RM 2,5mm, Elko, Electrolytkondensator, Kondensator gepolt, Durchmesser 6,3mm, radial,")
   (fp_text reference C2 (at 1.27 -5.08) (layer F.SilkS)
@@ -17,7 +17,7 @@
   (fp_circle (center 1.27 0) (end 4.4196 0) (layer F.SilkS) (width 0.15))
   (pad 2 thru_hole circle (at 2.54 0) (size 1.50114 1.50114) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at 0 0) (size 1.50114 1.50114) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
-  (model Capacitors_Electrolytic/Cap_11.2x6.3mm_RM2.5.wrl
+  (model /home/samata/projects-git/MAPone/kicad/MAPone_3D/Cap_11.2x6.3mm_RM2.5.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
