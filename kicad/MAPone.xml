@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/samata/projects-git/MAPone/kicad/MAPone.sch</source>
-    <date>Wednesday 26 November 2014 10:09:45 PM IST</date>
-    <tool>Eeschema 0.201411181401+5290~19~ubuntu14.10.1-product</tool>
+    <source>/home/anool/projects-git/MAPone/kicad/MAPone.sch</source>
+    <date>Fri Nov 28 10:58:48 2014</date>
+    <tool>Eeschema (2014-11-14 BZR 5284)-product</tool>
   </design>
   <components>
     <comp ref="C5">
@@ -36,7 +36,7 @@
     </comp>
     <comp ref="H2">
       <value>Power</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x07</footprint>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x06</footprint>
       <libsource lib="MAPone" part="CONN_6"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B830C</tstamp>
@@ -50,7 +50,7 @@
     </comp>
     <comp ref="H7">
       <value>IO_H</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x10</footprint>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x08</footprint>
       <libsource lib="MAPone" part="CONN_8"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B8323</tstamp>
@@ -297,6 +297,18 @@
         <pin num="28" name="PC5(ADC5/SCL)" type="BiDi"/>
       </pins>
     </libpart>
+    <libpart lib="MAPone" part="BARREL_JACK">
+      <description>DC Barrel Jack</description>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="MAPone" part="CONN_1">
       <fields>
         <field name="Reference">P</field>
@@ -463,22 +475,10 @@
         <pin num="T6" name="T6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MAPone" part="BARREL_JACK">
-      <description>DC Barrel Jack</description>
-      <fields>
-        <field name="Reference">CON</field>
-        <field name="Value">BARREL_JACK</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="MAPone">
-      <uri>/home/samata/projects-git/MAPone/kicad/MAPone.lib</uri>
+      <uri>/home/anool/projects-git/MAPone/kicad/MAPone.lib</uri>
     </library>
   </libraries>
   <nets>
