@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/anool/projects-git/MAPone/kicad/MAPone.sch</source>
-    <date>Fri Nov 28 10:58:48 2014</date>
+    <date>Sat Nov 29 18:30:52 2014</date>
     <tool>Eeschema (2014-11-14 BZR 5284)-product</tool>
   </design>
   <components>
@@ -14,7 +14,7 @@
       <tstamp>546B82D2</tstamp>
     </comp>
     <comp ref="R3">
-      <value>1k</value>
+      <value>300E</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="MAPone" part="R_CPL"/>
       <sheetpath names="/" tstamps="/"/>
@@ -91,7 +91,7 @@
       <tstamp>546B8357</tstamp>
     </comp>
     <comp ref="R2">
-      <value>1k</value>
+      <value>300E</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="MAPone" part="R_CPL"/>
       <sheetpath names="/" tstamps="/"/>
@@ -656,7 +656,7 @@
       <node ref="R1" pin="2"/>
       <node ref="U2" pin="1"/>
     </net>
-    <net code="35" name="/AREF">
+    <net code="35" name="/Vext">
       <node ref="H5" pin="3"/>
       <node ref="H7" pin="8"/>
     </net>
@@ -691,7 +691,7 @@
       <node ref="D3" pin="1"/>
       <node ref="R3" pin="2"/>
     </net>
-    <net code="44" name="/VREF">
+    <net code="44" name="/AREF">
       <node ref="H5" pin="2"/>
       <node ref="C5" pin="1"/>
       <node ref="U2" pin="21"/>

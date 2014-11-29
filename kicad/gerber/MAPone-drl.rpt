@@ -1,0 +1,18 @@
+Drill report for /home/anool/projects-git/MAPone/kicad/MAPone.kicad_pcb
+Created on Sat Nov 29 17:27:31 2014
+Drill report for plated through holes :
+T1  0.81mm  0.032"  (37 holes)
+T2  1.02mm  0.040"  (50 holes)
+T3  1.14mm  0.045"  (3 holes)
+T4  1.17mm  0.046"  (3 holes)  (with 3 slots)
+T5  1.27mm  0.050"  (4 holes)
+T6  2.54mm  0.100"  (4 holes)
+
+Total plated holes count 101
+
+
+Drill report for unplated through holes :
+
+Total unplated holes count 0
+
+

@@ -1,4 +1,4 @@
-update=Fri Nov 28 14:58:30 2014
+update=Sunday 30 November 2014 01:48:36 AM IST
 version=1
 last_client=kicad
 [cvpcb]
@@ -32,7 +32,5 @@ LibDir=
 LibName1=MAPone
 LibName2=power
 LibName3=CPL
-LibName4=/home/samata/projects-git/atss_v1/kicad/libs/arduino_shield
-LibName5=/home/samata/projects-git/atss_v1/kicad/libs/arduino_shieldsNCL
 [general]
 version=1

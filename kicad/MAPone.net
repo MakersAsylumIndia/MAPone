@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/anool/projects-git/MAPone/kicad/MAPone.sch)
-    (date "Fri Nov 28 11:52:26 2014")
+    (date "Sat Nov 29 18:27:11 2014")
     (tool "Eeschema (2014-11-14 BZR 5284)-product"))
   (components
     (comp (ref C5)
@@ -11,7 +11,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 546B82D2))
     (comp (ref R3)
-      (value 1k)
+      (value 300E)
       (footprint Resistors_SMD:R_0805_HandSoldering)
       (libsource (lib MAPone) (part R_CPL))
       (sheetpath (names /) (tstamps /))
@@ -77,7 +77,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 546B8357))
     (comp (ref R2)
-      (value 1k)
+      (value 300E)
       (footprint Resistors_SMD:R_0805_HandSoldering)
       (libsource (lib MAPone) (part R_CPL))
       (sheetpath (names /) (tstamps /))
