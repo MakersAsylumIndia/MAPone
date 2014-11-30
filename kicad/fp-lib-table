@@ -1,9 +1,4 @@
 (fp_lib_table
   (lib (name MAPone)(type Legacy)(uri ${KIPRJMOD}/MAPone_footprints.mod)(options "")(descr "MAPone footprints"))
-  (lib (name uControl)(type Legacy)(uri ${KIPRJMOD}/uControl.mod)(options "")(descr uControl))
-  (lib (name bebl_v2)(type Legacy)(uri ${KIPRJMOD}/bebl_v2.mod)(options "")(descr bebl))
-  (lib (name BADGEr)(type Legacy)(uri ${KIPRJMOD}/BADGEr_fp.mod)(options "")(descr ""))
   (lib (name MAPone.pretty)(type KiCad)(uri ${KIPRJMOD}/MAPone.pretty)(options "")(descr "MAPone pretty"))
-  (lib (name Arduino)(type Legacy)(uri ${KIPRJMOD}/arduino_shields.mod)(options "")(descr "Arduino Shields"))
-  (lib (name alamode)(type Legacy)(uri ${KIPRJMOD}/aLaMode_v3.mod)(options "")(descr alamode))
 )

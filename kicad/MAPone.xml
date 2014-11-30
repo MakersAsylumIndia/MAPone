@@ -2,160 +2,160 @@
 <export version="D">
   <design>
     <source>/home/samata/projects-git/MAPone/kicad/MAPone.sch</source>
-    <date>Sunday 30 November 2014 02:02:50 PM IST</date>
+    <date>Sunday 30 November 2014 10:38:20 PM IST</date>
     <tool>Eeschema 0.201411181401+5290~19~ubuntu14.10.1-product</tool>
   </design>
   <components>
     <comp ref="C5">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>MAPone.pretty:C_0805_HandSoldering</footprint>
       <libsource lib="MAPone" part="C_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B82D2</tstamp>
     </comp>
     <comp ref="R3">
       <value>300E</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>MAPone.pretty:R_0805_HandSoldering</footprint>
       <libsource lib="MAPone" part="R_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B82ED</tstamp>
     </comp>
     <comp ref="D3">
       <value>Blink</value>
-      <footprint>LEDs:LED-3MM</footprint>
+      <footprint>MAPone.pretty:LED-3MM</footprint>
       <libsource lib="MAPone" part="LED_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B82F4</tstamp>
     </comp>
     <comp ref="H5">
       <value>AREF</value>
-      <footprint>uControl:Header_A_REF</footprint>
+      <footprint>MAPone.pretty:Header_A_REF</footprint>
       <libsource lib="MAPone" part="CONN_3"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B82FD</tstamp>
     </comp>
     <comp ref="H2">
       <value>Power</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x06</footprint>
+      <footprint>MAPone.pretty:Socket_Strip_Straight_1x06</footprint>
       <libsource lib="MAPone" part="CONN_6"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B830C</tstamp>
     </comp>
     <comp ref="H4">
       <value>ANALOG</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x06</footprint>
+      <footprint>MAPone.pretty:Socket_Strip_Straight_1x06</footprint>
       <libsource lib="MAPone" part="CONN_6"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B8313</tstamp>
     </comp>
     <comp ref="H7">
       <value>IO_H</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x08</footprint>
+      <footprint>MAPone.pretty:Socket_Strip_Straight_1x08</footprint>
       <libsource lib="MAPone" part="CONN_8"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B8323</tstamp>
     </comp>
     <comp ref="H6">
       <value>IO_L</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x08</footprint>
+      <footprint>MAPone.pretty:Socket_Strip_Straight_1x08</footprint>
       <libsource lib="MAPone" part="CONN_8"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B832A</tstamp>
     </comp>
     <comp ref="H1">
       <value>V_SEL</value>
-      <footprint>uControl:Header_3</footprint>
+      <footprint>MAPone.pretty:Header_3</footprint>
       <libsource lib="MAPone" part="CONN_3"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B8332</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_1</value>
-      <footprint>BADGEr:vite_3mm</footprint>
+      <footprint>MAPone.pretty:vite_3mm</footprint>
       <libsource lib="MAPone" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B8348</tstamp>
     </comp>
     <comp ref="P1">
       <value>CONN_1</value>
-      <footprint>BADGEr:vite_3mm</footprint>
+      <footprint>MAPone.pretty:vite_3mm</footprint>
       <libsource lib="MAPone" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B834F</tstamp>
     </comp>
     <comp ref="C2">
       <value>100u</value>
-      <footprint>Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5</footprint>
+      <footprint>MAPone.pretty:Elko_vert_11.2x6.3mm_RM2.5</footprint>
       <libsource lib="MAPone" part="C_Polarized_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B8357</tstamp>
     </comp>
     <comp ref="R2">
       <value>300E</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>MAPone.pretty:R_0805_HandSoldering</footprint>
       <libsource lib="MAPone" part="R_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B835E</tstamp>
     </comp>
     <comp ref="D2">
       <value>PWR</value>
-      <footprint>LEDs:LED-3MM</footprint>
+      <footprint>MAPone.pretty:LED-3MM</footprint>
       <libsource lib="MAPone" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B8365</tstamp>
     </comp>
     <comp ref="C3">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>MAPone.pretty:C_0805_HandSoldering</footprint>
       <libsource lib="MAPone" part="C_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B8379</tstamp>
     </comp>
     <comp ref="U1">
       <value>7805</value>
-      <footprint>Discret:LM78XXV</footprint>
+      <footprint>MAPone.pretty:LM78XXV</footprint>
       <libsource lib="MAPone" part="7805"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B8383</tstamp>
     </comp>
     <comp ref="C4">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>MAPone.pretty:C_0805_HandSoldering</footprint>
       <libsource lib="MAPone" part="C_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B838A</tstamp>
     </comp>
     <comp ref="C6">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>MAPone.pretty:C_0805_HandSoldering</footprint>
       <libsource lib="MAPone" part="C_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B839B</tstamp>
     </comp>
     <comp ref="H8">
       <value>FTDI</value>
-      <footprint>BADGEr:Header_FTDI</footprint>
+      <footprint>MAPone.pretty:Header_FTDI</footprint>
       <libsource lib="MAPone" part="CONN_6"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B83A2</tstamp>
     </comp>
     <comp ref="H9">
       <value>ISP</value>
-      <footprint>BADGEr:Header_ICSP</footprint>
+      <footprint>MAPone.pretty:Header_ICSP</footprint>
       <libsource lib="MAPone" part="CONN_6"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B83AC</tstamp>
     </comp>
     <comp ref="C1">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>MAPone.pretty:C_0805_HandSoldering</footprint>
       <libsource lib="MAPone" part="C_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B83D4</tstamp>
     </comp>
     <comp ref="SW1">
       <value>RST</value>
-      <footprint>uControl:SW-PB</footprint>
+      <footprint>MAPone.pretty:SW-PB</footprint>
       <datasheet>http://industrial.panasonic.com/www-data/pdf/ATK0000/ATK0000CE32.pdf</datasheet>
       <fields>
         <field name="DigiKey">P10884S-ND</field>
@@ -166,14 +166,14 @@
     </comp>
     <comp ref="R1">
       <value>10k</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>MAPone.pretty:R_0805_HandSoldering</footprint>
       <libsource lib="MAPone" part="R_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546B83F3</tstamp>
     </comp>
     <comp ref="X1">
       <value>16MHz</value>
-      <footprint>Crystals:Crystal_HC49-U_Vertical_3Pin</footprint>
+      <footprint>MAPone.pretty:Crystal_HC49-U_Vertical_3Pin</footprint>
       <datasheet>http://search.murata.co.jp/Ceramy/image/img/w_hinm/L0430E.pdf</datasheet>
       <fields>
         <field name="DigiKey">490-1214-ND</field>
@@ -191,58 +191,109 @@
     </comp>
     <comp ref="D1">
       <value>1N4007</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Vertical_KathodeUp</footprint>
+      <footprint>MAPone.pretty:Diode_DO-41_SOD81_Vertical_KathodeUp</footprint>
       <libsource lib="MAPone" part="D_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546BA3AF</tstamp>
     </comp>
     <comp ref="J1">
       <value>BARREL_JACK</value>
-      <footprint>uControl:JACK_ALIM</footprint>
+      <footprint>MAPone.pretty:JACK_ALIM</footprint>
       <libsource lib="MAPone" part="BARREL_JACK"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546F6945</tstamp>
     </comp>
     <comp ref="J2">
       <value>USB-Micro</value>
-      <footprint>BADGEr:USB_B_Micro</footprint>
+      <footprint>MAPone.pretty:USB_B_Micro</footprint>
       <libsource lib="MAPone" part="USB-Micro"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546F6B4E</tstamp>
     </comp>
     <comp ref="P3">
       <value>CONN_1</value>
-      <footprint>BADGEr:vite_3mm</footprint>
+      <footprint>MAPone.pretty:vite_3mm</footprint>
       <libsource lib="MAPone" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546F7776</tstamp>
     </comp>
     <comp ref="P4">
       <value>CONN_1</value>
-      <footprint>BADGEr:vite_3mm</footprint>
+      <footprint>MAPone.pretty:vite_3mm</footprint>
       <libsource lib="MAPone" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>546F77D2</tstamp>
     </comp>
     <comp ref="C7">
       <value>22pF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>MAPone.pretty:C_0805_HandSoldering</footprint>
       <libsource lib="MAPone" part="C_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54735263</tstamp>
     </comp>
     <comp ref="C8">
       <value>22pF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>MAPone.pretty:C_0805_HandSoldering</footprint>
       <libsource lib="MAPone" part="C_CPL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54735491</tstamp>
     </comp>
     <comp ref="H3">
       <value>LiPo_7V2</value>
+      <footprint>MAPone.pretty:Pin_Header_Straight_1x02</footprint>
       <libsource lib="MAPone" part="CONN_2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>547AD762</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>CP210X</value>
+      <libsource lib="MAPone" part="CP210X"/>
+      <sheetpath names="/USB_UART/" tstamps="/547AF343/"/>
+      <tstamp>547B0876</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB-Micro</value>
+      <libsource lib="MAPone" part="USB-Micro"/>
+      <sheetpath names="/USB_UART/" tstamps="/547AF343/"/>
+      <tstamp>547B4117</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <libsource lib="MAPone" part="C_CPL"/>
+      <sheetpath names="/USB_UART/" tstamps="/547AF343/"/>
+      <tstamp>547B4424</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <libsource lib="MAPone" part="C_CPL"/>
+      <sheetpath names="/USB_UART/" tstamps="/547AF343/"/>
+      <tstamp>547B4489</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>300E</value>
+      <libsource lib="MAPone" part="R_CPL"/>
+      <sheetpath names="/USB_UART/" tstamps="/547AF343/"/>
+      <tstamp>547B49C9</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_USB</value>
+      <libsource lib="MAPone" part="LED_CPL"/>
+      <sheetpath names="/USB_UART/" tstamps="/547AF343/"/>
+      <tstamp>547B4A40</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>MAPone.pretty:C_0805_HandSoldering</footprint>
+      <libsource lib="MAPone" part="C_CPL"/>
+      <sheetpath names="/USB_UART/" tstamps="/547AF343/"/>
+      <tstamp>547B59C5</tstamp>
+    </comp>
+    <comp ref="H10">
+      <value>FTDI</value>
+      <footprint>MAPone.pretty:Header_FTDI</footprint>
+      <libsource lib="MAPone" part="CONN_6"/>
+      <sheetpath names="/USB_UART/" tstamps="/547AF343/"/>
+      <tstamp>547B59CC</tstamp>
     </comp>
   </components>
   <libparts>
@@ -375,6 +426,33 @@
         <pin num="8" name="P8" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="MAPone" part="CP210X">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP210X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DCD" type="input"/>
+        <pin num="2" name="RI" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="D+" type="input"/>
+        <pin num="5" name="D-" type="input"/>
+        <pin num="6" name="VDD" type="input"/>
+        <pin num="7" name="REGIN" type="input"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~RST" type="input"/>
+        <pin num="11" name="~SUSP" type="input"/>
+        <pin num="12" name="SUSP" type="input"/>
+        <pin num="23" name="CTS" type="input"/>
+        <pin num="24" name="RTS" type="input"/>
+        <pin num="25" name="RXD" type="input"/>
+        <pin num="26" name="TXD" type="input"/>
+        <pin num="27" name="DSR" type="input"/>
+        <pin num="28" name="DTR" type="input"/>
+        <pin num="EXP" name="GND" type="input"/>
+        <pin num="M" name="GND" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="MAPone" part="CRYSTAL">
       <fields>
         <field name="Reference">X</field>
@@ -498,221 +576,303 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="J1" pin="2"/>
-      <node ref="H2" pin="5"/>
-      <node ref="C2" pin="2"/>
-      <node ref="J2" pin="T6"/>
-      <node ref="D2" pin="2"/>
-      <node ref="H7" pin="7"/>
-      <node ref="C5" pin="2"/>
-      <node ref="J2" pin="T5"/>
-      <node ref="C7" pin="2"/>
-      <node ref="J2" pin="T4"/>
-      <node ref="J2" pin="T3"/>
-      <node ref="J2" pin="T2"/>
-      <node ref="J2" pin="T1"/>
-      <node ref="H9" pin="6"/>
-      <node ref="C3" pin="1"/>
-      <node ref="J2" pin="5"/>
-      <node ref="H3" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="H2" pin="4"/>
-      <node ref="U2" pin="22"/>
-      <node ref="U2" pin="8"/>
-      <node ref="C1" pin="2"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="D3" pin="2"/>
-      <node ref="X1" pin="3"/>
-      <node ref="H8" pin="1"/>
-      <node ref="H8" pin="2"/>
-      <node ref="U1" pin="GND"/>
-      <node ref="C4" pin="2"/>
-    </net>
-    <net code="2" name="/5V">
+    <net code="1" name="/5V">
+      <node ref="U2" pin="7"/>
+      <node ref="R1" pin="1"/>
+      <node ref="H8" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="H5" pin="1"/>
+      <node ref="H9" pin="2"/>
       <node ref="H1" pin="2"/>
       <node ref="R2" pin="2"/>
       <node ref="H3" pin="1"/>
-      <node ref="H9" pin="2"/>
-      <node ref="H2" pin="3"/>
-      <node ref="C4" pin="1"/>
       <node ref="C1" pin="1"/>
-      <node ref="H5" pin="1"/>
-      <node ref="H8" pin="3"/>
-      <node ref="R1" pin="1"/>
       <node ref="U2" pin="20"/>
-      <node ref="U2" pin="7"/>
+      <node ref="H2" pin="3"/>
     </net>
-    <net code="3" name="Net-(C7-Pad1)">
-      <node ref="X1" pin="1"/>
+    <net code="2" name="Net-(C7-Pad1)">
       <node ref="U2" pin="9"/>
       <node ref="C7" pin="1"/>
+      <node ref="X1" pin="1"/>
     </net>
-    <net code="4" name="/PD6_P">
-      <node ref="H6" pin="7"/>
+    <net code="3" name="/PD6_P">
       <node ref="U2" pin="12"/>
+      <node ref="H6" pin="7"/>
     </net>
-    <net code="5" name="/TXD">
-      <node ref="U2" pin="3"/>
-      <node ref="H6" pin="2"/>
+    <net code="4" name="/TXD">
       <node ref="H8" pin="5"/>
+      <node ref="H6" pin="2"/>
+      <node ref="U2" pin="3"/>
     </net>
-    <net code="6" name="/RXD">
-      <node ref="U2" pin="2"/>
-      <node ref="H8" pin="4"/>
+    <net code="5" name="/RXD">
       <node ref="H6" pin="1"/>
+      <node ref="H8" pin="4"/>
+      <node ref="U2" pin="2"/>
     </net>
-    <net code="7" name="/V_IN">
+    <net code="6" name="/V_IN">
       <node ref="C2" pin="1"/>
-      <node ref="H2" pin="6"/>
       <node ref="D1" pin="2"/>
-      <node ref="U1" pin="VI"/>
+      <node ref="H2" pin="6"/>
       <node ref="C3" pin="2"/>
+      <node ref="U1" pin="VI"/>
     </net>
-    <net code="8" name="/PD5_P">
+    <net code="7" name="/PD5_P">
       <node ref="H6" pin="6"/>
       <node ref="U2" pin="11"/>
     </net>
-    <net code="9" name="/PD4">
-      <node ref="H6" pin="5"/>
+    <net code="8" name="/PD4">
       <node ref="U2" pin="6"/>
+      <node ref="H6" pin="5"/>
     </net>
-    <net code="10" name="/PD3_P">
-      <node ref="H6" pin="4"/>
+    <net code="9" name="/PD3_P">
       <node ref="U2" pin="5"/>
+      <node ref="H6" pin="4"/>
     </net>
-    <net code="11" name="/PD2">
+    <net code="10" name="/PD2">
       <node ref="H6" pin="3"/>
       <node ref="U2" pin="4"/>
     </net>
-    <net code="12" name="/PD7">
+    <net code="11" name="/PD7">
       <node ref="H6" pin="8"/>
       <node ref="U2" pin="13"/>
     </net>
-    <net code="13" name="Net-(C6-Pad2)">
-      <node ref="C6" pin="2"/>
+    <net code="12" name="Net-(C6-Pad2)">
       <node ref="H8" pin="6"/>
+      <node ref="C6" pin="2"/>
     </net>
-    <net code="14" name="/V_USB">
-      <node ref="H1" pin="3"/>
+    <net code="13" name="/V_USB">
       <node ref="J2" pin="1"/>
+      <node ref="H1" pin="3"/>
     </net>
-    <net code="15" name="Net-(J2-Pad4)">
+    <net code="14" name="Net-(J2-Pad4)">
       <node ref="J2" pin="4"/>
     </net>
-    <net code="16" name="Net-(C8-Pad1)">
-      <node ref="U2" pin="10"/>
-      <node ref="C8" pin="1"/>
+    <net code="15" name="Net-(C8-Pad1)">
       <node ref="X1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U2" pin="10"/>
     </net>
-    <net code="17" name="Net-(J1-Pad3)">
+    <net code="16" name="Net-(J1-Pad3)">
       <node ref="J1" pin="3"/>
     </net>
-    <net code="18" name="Net-(D1-Pad1)">
-      <node ref="J1" pin="1"/>
+    <net code="17" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1"/>
+      <node ref="J1" pin="1"/>
     </net>
-    <net code="19" name="/SCK">
-      <node ref="H7" pin="6"/>
-      <node ref="R3" pin="1"/>
+    <net code="18" name="/SCK">
       <node ref="U2" pin="19"/>
+      <node ref="R3" pin="1"/>
+      <node ref="H7" pin="6"/>
       <node ref="H9" pin="3"/>
     </net>
-    <net code="20" name="/MISO">
-      <node ref="H7" pin="5"/>
+    <net code="19" name="/MISO">
       <node ref="U2" pin="18"/>
       <node ref="H9" pin="1"/>
+      <node ref="H7" pin="5"/>
     </net>
-    <net code="21" name="/AD4_SDA">
+    <net code="20" name="/AD4_SDA">
       <node ref="H4" pin="5"/>
       <node ref="U2" pin="27"/>
     </net>
-    <net code="22" name="/MOSI_P">
+    <net code="21" name="/MOSI_P">
+      <node ref="U2" pin="17"/>
       <node ref="H7" pin="4"/>
       <node ref="H9" pin="4"/>
-      <node ref="U2" pin="17"/>
     </net>
-    <net code="23" name="/SS_P">
+    <net code="22" name="/SS_P">
       <node ref="U2" pin="16"/>
       <node ref="H7" pin="3"/>
     </net>
-    <net code="24" name="/PB1_P">
-      <node ref="U2" pin="15"/>
+    <net code="23" name="/PB1_P">
       <node ref="H7" pin="2"/>
+      <node ref="U2" pin="15"/>
     </net>
-    <net code="25" name="/PB0">
-      <node ref="H7" pin="1"/>
+    <net code="24" name="/PB0">
       <node ref="U2" pin="14"/>
+      <node ref="H7" pin="1"/>
     </net>
-    <net code="26" name="Net-(J2-Pad3)">
+    <net code="25" name="Net-(J2-Pad3)">
       <node ref="J2" pin="3"/>
     </net>
-    <net code="27" name="Net-(J2-Pad2)">
+    <net code="26" name="Net-(J2-Pad2)">
       <node ref="J2" pin="2"/>
     </net>
-    <net code="29" name="Net-(P4-Pad1)">
+    <net code="28" name="Net-(P4-Pad1)">
       <node ref="P4" pin="1"/>
     </net>
-    <net code="30" name="Net-(P3-Pad1)">
+    <net code="29" name="Net-(P3-Pad1)">
       <node ref="P3" pin="1"/>
     </net>
-    <net code="31" name="Net-(P2-Pad1)">
+    <net code="30" name="Net-(P2-Pad1)">
       <node ref="P2" pin="1"/>
     </net>
-    <net code="32" name="Net-(P1-Pad1)">
+    <net code="31" name="Net-(P1-Pad1)">
       <node ref="P1" pin="1"/>
     </net>
-    <net code="33" name="/RST">
-      <node ref="U2" pin="1"/>
-      <node ref="H9" pin="5"/>
-      <node ref="C6" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="SW1" pin="2"/>
+    <net code="32" name="/RST">
       <node ref="H2" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="H9" pin="5"/>
     </net>
-    <net code="34" name="/Vext">
-      <node ref="H7" pin="8"/>
+    <net code="33" name="/Vext">
       <node ref="H5" pin="3"/>
+      <node ref="H7" pin="8"/>
     </net>
-    <net code="35" name="/3V3">
+    <net code="34" name="/3V3">
       <node ref="H2" pin="2"/>
     </net>
-    <net code="36" name="Net-(D2-Pad1)">
-      <node ref="R2" pin="1"/>
+    <net code="35" name="Net-(D2-Pad1)">
       <node ref="D2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="36" name="/AD0">
+      <node ref="U2" pin="23"/>
+      <node ref="H4" pin="1"/>
     </net>
     <net code="37" name="/AD1">
-      <node ref="H4" pin="2"/>
       <node ref="U2" pin="24"/>
+      <node ref="H4" pin="2"/>
     </net>
-    <net code="38" name="/AD0">
-      <node ref="H4" pin="1"/>
-      <node ref="U2" pin="23"/>
-    </net>
-    <net code="39" name="/AD2">
-      <node ref="H4" pin="3"/>
-      <node ref="U2" pin="25"/>
-    </net>
-    <net code="40" name="/AD3">
+    <net code="38" name="/AD3">
       <node ref="U2" pin="26"/>
       <node ref="H4" pin="4"/>
     </net>
-    <net code="41" name="/AD5_SCL">
+    <net code="39" name="/AD5_SCL">
       <node ref="U2" pin="28"/>
       <node ref="H4" pin="6"/>
     </net>
-    <net code="42" name="/V_REG">
-      <node ref="H1" pin="1"/>
-      <node ref="U1" pin="VO"/>
+    <net code="40" name="/AD2">
+      <node ref="H4" pin="3"/>
+      <node ref="U2" pin="25"/>
     </net>
-    <net code="43" name="Net-(D3-Pad1)">
+    <net code="41" name="/V_REG">
+      <node ref="U1" pin="VO"/>
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(D3-Pad1)">
       <node ref="R3" pin="2"/>
       <node ref="D3" pin="1"/>
     </net>
-    <net code="44" name="/AREF">
+    <net code="43" name="/AREF">
       <node ref="H5" pin="2"/>
       <node ref="U2" pin="21"/>
       <node ref="C5" pin="1"/>
+    </net>
+    <net code="44" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="45" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="46" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="47" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="48" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="49" name="/USB_UART/5V">
+      <node ref="U3" pin="8"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="H10" pin="3"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="50" name="/USB_UART/TXD">
+      <node ref="U3" pin="26"/>
+      <node ref="H10" pin="5"/>
+    </net>
+    <net code="51" name="/USB_UART/RXD">
+      <node ref="U3" pin="25"/>
+      <node ref="H10" pin="4"/>
+    </net>
+    <net code="52" name="Net-(U3-Pad27)">
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="53" name="Net-(C11-Pad2)">
+      <node ref="H10" pin="6"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="54" name="GND">
+      <node ref="D4" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J3" pin="T2"/>
+      <node ref="J3" pin="T3"/>
+      <node ref="J3" pin="T4"/>
+      <node ref="J3" pin="T6"/>
+      <node ref="J3" pin="T5"/>
+      <node ref="H10" pin="2"/>
+      <node ref="U3" pin="M"/>
+      <node ref="J3" pin="T1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="J3" pin="5"/>
+      <node ref="U3" pin="EXP"/>
+      <node ref="H10" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="H3" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="22"/>
+      <node ref="U2" pin="8"/>
+      <node ref="X1" pin="3"/>
+      <node ref="U1" pin="GND"/>
+      <node ref="H8" pin="2"/>
+      <node ref="H8" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="H9" pin="6"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J2" pin="T6"/>
+      <node ref="H7" pin="7"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="H2" pin="5"/>
+      <node ref="H2" pin="4"/>
+      <node ref="J2" pin="T1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J2" pin="T2"/>
+      <node ref="J2" pin="T3"/>
+      <node ref="J2" pin="T4"/>
+      <node ref="J2" pin="T5"/>
+    </net>
+    <net code="55" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="56" name="/USB_UART/RST">
+      <node ref="C11" pin="1"/>
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="57" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="58" name="/USB_UART/D+">
+      <node ref="U3" pin="4"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="59" name="/USB_UART/D-">
+      <node ref="U3" pin="5"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="60" name="/USB_UART/3V3">
+      <node ref="C10" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="61" name="/USB_UART/CTS">
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="62" name="/USB_UART/RTS">
+      <node ref="U3" pin="24"/>
     </net>
   </nets>
 </export>

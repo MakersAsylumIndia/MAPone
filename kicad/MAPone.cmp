@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201411181401+5290~19~ubuntu14.10.1-product   date = Sunday 30 November 2014 02:07:03 PM IST
+Cmp-Mod V01 Created by Cvpcb 0.201411181401+5290~19~ubuntu14.10.1-product   date = Sunday 30 November 2014 11:33:18 PM IST
 
 BeginCmp
 TimeStamp = /546B83D4;
@@ -57,6 +57,27 @@ IdModule  = MAPone.pretty:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /547AF343/547B4489;
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = MAPone.pretty:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF343/547B4424;
+Reference = C10;
+ValeurCmp = 100n;
+IdModule  = MAPone.pretty:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF343/547B59C5;
+Reference = C11;
+ValeurCmp = 100n;
+IdModule  = MAPone.pretty:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /546BA3AF;
 Reference = D1;
 ValeurCmp = 1N4007;
@@ -74,6 +95,13 @@ BeginCmp
 TimeStamp = /546B82F4;
 Reference = D3;
 ValeurCmp = Blink;
+IdModule  = MAPone.pretty:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF343/547B4A40;
+Reference = D4;
+ValeurCmp = LED_USB;
 IdModule  = MAPone.pretty:LED-3MM;
 EndCmp
 
@@ -141,6 +169,13 @@ IdModule  = MAPone.pretty:Header_ICSP;
 EndCmp
 
 BeginCmp
+TimeStamp = /547AF343/547B59CC;
+Reference = H10;
+ValeurCmp = FTDI;
+IdModule  = MAPone.pretty:Header_FTDI;
+EndCmp
+
+BeginCmp
 TimeStamp = /546F6945;
 Reference = J1;
 ValeurCmp = BARREL_JACK;
@@ -150,6 +185,13 @@ EndCmp
 BeginCmp
 TimeStamp = /546F6B4E;
 Reference = J2;
+ValeurCmp = USB-Micro;
+IdModule  = MAPone.pretty:USB_B_Micro;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF343/547B4117;
+Reference = J3;
 ValeurCmp = USB-Micro;
 IdModule  = MAPone.pretty:USB_B_Micro;
 EndCmp
@@ -204,6 +246,13 @@ IdModule  = MAPone.pretty:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /547AF343/547B49C9;
+Reference = R4;
+ValeurCmp = 300E;
+IdModule  = MAPone.pretty:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /546B83DD;
 Reference = SW1;
 ValeurCmp = RST;
@@ -222,6 +271,13 @@ TimeStamp = /546B8402;
 Reference = U2;
 ValeurCmp = ATMEGA328-P;
 IdModule  = MAPone.pretty:DIP-28__300_ELL_ZIF;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF343/547B0876;
+Reference = U3;
+ValeurCmp = CP210X;
+IdModule  = MAPone.pretty:qfn-28;
 EndCmp
 
 BeginCmp

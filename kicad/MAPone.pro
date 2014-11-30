@@ -1,4 +1,4 @@
-update=Sunday 30 November 2014 02:14:15 PM IST
+update=Monday 01 December 2014 12:28:49 AM IST
 version=1
 last_client=kicad
 [cvpcb]
@@ -31,6 +31,5 @@ LibDir=
 [eeschema/libraries]
 LibName1=MAPone
 LibName2=power
-LibName3=CPL
 [general]
 version=1
