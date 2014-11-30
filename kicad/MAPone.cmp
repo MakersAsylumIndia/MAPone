@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201411181401+5290~19~ubuntu14.10.1-product   date = Wednesday 26 November 2014 11:30:27 PM IST
+Cmp-Mod V01 Created by Cvpcb 0.201411181401+5290~19~ubuntu14.10.1-product   date = Sunday 30 November 2014 02:07:03 PM IST
 
 BeginCmp
 TimeStamp = /546B83D4;
@@ -89,6 +89,13 @@ TimeStamp = /546B830C;
 Reference = H2;
 ValeurCmp = Power;
 IdModule  = MAPone.pretty:Socket_Strip_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AD762;
+Reference = H3;
+ValeurCmp = LiPo_7V2;
+IdModule  = MAPone.pretty:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -185,14 +192,14 @@ EndCmp
 BeginCmp
 TimeStamp = /546B835E;
 Reference = R2;
-ValeurCmp = 1k;
+ValeurCmp = 300E;
 IdModule  = MAPone.pretty:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /546B82ED;
 Reference = R3;
-ValeurCmp = 1k;
+ValeurCmp = 300E;
 IdModule  = MAPone.pretty:R_0805_HandSoldering;
 EndCmp
 
