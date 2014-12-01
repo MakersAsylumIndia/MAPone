@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201411181401+5290~19~ubuntu14.10.1-product   date = Sunday 30 November 2014 11:33:18 PM IST
+Cmp-Mod V01 Created by Cvpcb 0.201411181401+5290~19~ubuntu14.10.1-product   date = Monday 01 December 2014 12:25:34 PM IST
 
 BeginCmp
 TimeStamp = /546B83D4;
@@ -225,6 +225,34 @@ IdModule  = MAPone.pretty:vite_3mm;
 EndCmp
 
 BeginCmp
+TimeStamp = /547AF343/547C11DB;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = MAPone.pretty:vite_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF343/547C11D4;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = MAPone.pretty:vite_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF343/547C11E7;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = MAPone.pretty:vite_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF343/547C11EE;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = MAPone.pretty:vite_3mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /546B83F3;
 Reference = R1;
 ValeurCmp = 10k;
@@ -285,6 +313,62 @@ TimeStamp = /546B83FB;
 Reference = X1;
 ValeurCmp = 16MHz;
 IdModule  = MAPone.pretty:Crystal_HC49-U_Vertical_3Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /547C224A;
+Reference = Z1;
+ValeurCmp = CONN_1;
+IdModule  = MAPone.pretty:MA_Logo2;
+EndCmp
+
+BeginCmp
+TimeStamp = /547C2244;
+Reference = Z2;
+ValeurCmp = CONN_1;
+IdModule  = MAPone.pretty:MA_Logo2;
+EndCmp
+
+BeginCmp
+TimeStamp = /547C2250;
+Reference = Z3;
+ValeurCmp = CONN_1;
+IdModule  = MAPone.pretty:MA_Logo2;
+EndCmp
+
+BeginCmp
+TimeStamp = /547C2256;
+Reference = Z4;
+ValeurCmp = CONN_1;
+IdModule  = MAPone.pretty:MA_Logo2;
+EndCmp
+
+BeginCmp
+TimeStamp = /547C1CA4;
+Reference = Z5;
+ValeurCmp = CONN_1;
+IdModule  = MAPone:OSHW_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /547C1C9E;
+Reference = Z6;
+ValeurCmp = CONN_1;
+IdModule  = MAPone:OSHW_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /547C1CAF;
+Reference = Z7;
+ValeurCmp = CONN_1;
+IdModule  = MAPone:OSHW_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /547C1CB5;
+Reference = Z8;
+ValeurCmp = CONN_1;
+IdModule  = MAPone:OSHW_6mm;
 EndCmp
 
 EndListe
