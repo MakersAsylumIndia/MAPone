@@ -36,7 +36,7 @@ D+
 Text Label 5325 3575 0    40   ~ 0
 D-
 Text Label 5050 4550 0    40   ~ 0
-GND
+GND_U
 Text Label 7175 4125 2    40   ~ 0
 CTS
 Text Label 7175 4025 2    40   ~ 0
@@ -64,7 +64,7 @@ Text Label 3050 3475 0    40   ~ 0
 5V
 NoConn ~ 2700 3925
 Text Label 3050 4075 0    40   ~ 0
-GND
+GND_U
 $Comp
 L C_CPL C10
 U 1 1 547B4424
@@ -134,7 +134,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 4375 1850 4550
 Wire Wire Line
-	1575 4550 2825 4550
+	1425 4550 2825 4550
 Wire Wire Line
 	2825 4550 2825 4075
 Connection ~ 2825 4075
@@ -239,7 +239,7 @@ F 3 "" H 9250 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8050 3350 2    40   ~ 0
-GND
+GND_U
 Text Label 8050 3750 2    40   ~ 0
 TXD
 Text Label 8050 3650 2    40   ~ 0
@@ -301,4 +301,18 @@ Text Notes 5850 6500 0    60   Italic 12
 MOUNT HOLES
 NoConn ~ 6000 6875
 NoConn ~ 6200 6875
+$Comp
+L PWR_FLAG #FLG013
+U 1 1 547CA2D7
+P 1425 4450
+F 0 "#FLG013" H 1425 4720 30  0001 C CNN
+F 1 "PWR_FLAG" H 1425 4680 30  0000 C CNN
+F 2 "" H 1425 4450 60  0000 C CNN
+F 3 "" H 1425 4450 60  0000 C CNN
+	1    1425 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1425 4550 1425 4450
+Connection ~ 1575 4550
 $EndSCHEMATC
