@@ -1,0 +1,304 @@
+EESchema Schematic File Version 2
+LIBS:MAPone
+LIBS:power
+LIBS:MAPone-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "MAPone - Bare Bones Arduino"
+Date ""
+Rev "v1"
+Comp "Maker's Asylum : www.github.com/MakersAsylumIndia"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CP210X U3
+U 1 1 547B0876
+P 6225 3575
+F 0 "U3" H 6000 4325 60  0000 C CNN
+F 1 "CP210X" H 6100 4225 60  0000 C CNN
+F 2 "MAPone.pretty:qfn-28" H 6225 3775 60  0001 C CNN
+F 3 "" H 6225 3775 60  0000 C CNN
+	1    6225 3575
+	1    0    0    -1  
+$EndComp
+Text Label 5325 3125 0    40   ~ 0
+5V
+Text Label 5325 3275 0    40   ~ 0
+3V3
+Text Label 5325 3425 0    40   ~ 0
+D+
+Text Label 5325 3575 0    40   ~ 0
+D-
+Text Label 5050 4550 0    40   ~ 0
+GND
+Text Label 7175 4125 2    40   ~ 0
+CTS
+Text Label 7175 4025 2    40   ~ 0
+RTS
+Text Label 7175 3925 2    40   ~ 0
+RXD
+Text Label 7175 3825 2    40   ~ 0
+TXD
+$Comp
+L USB-Micro J3
+U 1 1 547B4117
+P 2150 3775
+F 0 "J3" H 2150 4325 60  0000 C CNN
+F 1 "USB-Micro" H 2300 4225 60  0000 C CNN
+F 2 "MAPone.pretty:USB_B_Micro" H 2150 3775 60  0001 C CNN
+F 3 "" H 2150 3775 60  0000 C CNN
+	1    2150 3775
+	1    0    0    -1  
+$EndComp
+Text Label 3050 3625 0    40   ~ 0
+D-
+Text Label 3050 3775 0    40   ~ 0
+D+
+Text Label 3050 3475 0    40   ~ 0
+5V
+NoConn ~ 2700 3925
+Text Label 3050 4075 0    40   ~ 0
+GND
+$Comp
+L C_CPL C10
+U 1 1 547B4424
+P 4950 3775
+F 0 "C10" V 4850 3875 50  0000 C CNN
+F 1 "100n" V 5050 3900 50  0000 C CNN
+F 2 "MAPone.pretty:C_0805_HandSoldering" H 4900 3775 60  0001 C CNN
+F 3 "" H 4900 3775 60  0000 C CNN
+	1    4950 3775
+	0    1    1    0   
+$EndComp
+$Comp
+L C_CPL C9
+U 1 1 547B4489
+P 4625 3775
+F 0 "C9" V 4525 3825 50  0000 C CNN
+F 1 "100n" V 4725 3900 50  0000 C CNN
+F 2 "MAPone.pretty:C_0805_HandSoldering" H 4575 3775 60  0001 C CNN
+F 3 "" H 4575 3775 60  0000 C CNN
+	1    4625 3775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5725 3025 5625 3025
+Wire Wire Line
+	5625 3025 5625 3125
+Wire Wire Line
+	4225 3125 5725 3125
+Connection ~ 5625 3125
+Wire Wire Line
+	4950 3275 5725 3275
+Wire Wire Line
+	5725 3425 5325 3425
+Wire Wire Line
+	5725 3575 5325 3575
+Wire Wire Line
+	5725 3925 5325 3925
+Wire Wire Line
+	5325 3925 5325 4550
+Wire Wire Line
+	5325 4125 5725 4125
+Wire Wire Line
+	5325 4550 4225 4550
+Connection ~ 5325 4125
+Wire Wire Line
+	6725 4125 7175 4125
+Wire Wire Line
+	6725 4025 7175 4025
+Wire Wire Line
+	6725 3925 7175 3925
+Wire Wire Line
+	6725 3825 7175 3825
+Wire Wire Line
+	2700 3625 3050 3625
+Wire Wire Line
+	3050 3775 2700 3775
+Wire Wire Line
+	2700 3475 3050 3475
+Wire Wire Line
+	2700 4075 3050 4075
+Wire Wire Line
+	1850 3175 1850 3075
+Wire Wire Line
+	1575 3075 2000 3075
+Wire Wire Line
+	2000 3075 2000 3175
+Wire Wire Line
+	1850 4375 1850 4550
+Wire Wire Line
+	1575 4550 2825 4550
+Wire Wire Line
+	2825 4550 2825 4075
+Connection ~ 2825 4075
+Wire Wire Line
+	2000 4375 2000 4550
+Connection ~ 2000 4550
+Wire Wire Line
+	2300 4375 2300 4550
+Connection ~ 2300 4550
+Wire Wire Line
+	4950 3525 4950 3275
+Wire Wire Line
+	4625 3125 4625 3525
+Wire Wire Line
+	4625 4025 4625 4550
+Wire Wire Line
+	4950 4550 4950 4025
+Wire Wire Line
+	1575 3075 1575 4550
+Connection ~ 1850 4550
+Connection ~ 1850 3075
+$Comp
+L R_CPL R4
+U 1 1 547B49C9
+P 4225 3475
+F 0 "R4" V 4025 3400 50  0000 C CNN
+F 1 "300E" H 4225 3475 50  0000 C CNN
+F 2 "MAPone.pretty:R_0805_HandSoldering" H 4175 3475 60  0001 C CNN
+F 3 "" H 4175 3475 60  0000 C CNN
+	1    4225 3475
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_CPL D4
+U 1 1 547B4A40
+P 4225 4025
+F 0 "D4" V 4100 3950 50  0000 C CNN
+F 1 "LED_USB" H 4225 4175 50  0000 C CNN
+F 2 "MAPone.pretty:LED-3MM" H 4295 4025 60  0001 C CNN
+F 3 "" H 4295 4025 60  0000 C CNN
+	1    4225 4025
+	0    1    1    0   
+$EndComp
+Connection ~ 4950 4550
+Wire Wire Line
+	4225 4550 4225 4275
+Connection ~ 4625 4550
+Wire Wire Line
+	4225 3725 4225 3775
+Wire Wire Line
+	4225 3225 4225 3125
+Connection ~ 4625 3125
+NoConn ~ 6725 3025
+NoConn ~ 6725 3175
+NoConn ~ 6725 3275
+NoConn ~ 6725 3425
+NoConn ~ 6725 3525
+NoConn ~ 6725 3725
+Wire Wire Line
+	8650 3900 8900 3900
+Wire Wire Line
+	8900 3900 8900 3850
+Wire Wire Line
+	8900 3650 8050 3650
+Connection ~ 8525 3350
+Wire Wire Line
+	8525 3350 8525 3450
+Wire Wire Line
+	8525 3450 8900 3450
+Wire Wire Line
+	8050 3350 8900 3350
+Wire Wire Line
+	8900 3550 8050 3550
+Wire Wire Line
+	8900 3750 8050 3750
+Wire Wire Line
+	7575 3900 8150 3900
+Text Label 8050 3550 2    40   ~ 0
+5V
+Text Label 8050 3900 2    40   ~ 0
+RST
+$Comp
+L C_CPL C11
+U 1 1 547B59C5
+P 8400 3900
+F 0 "C11" H 8500 3975 50  0000 L CNN
+F 1 "100n" H 8500 3825 50  0000 L CNN
+F 2 "MAPone.pretty:C_0805_HandSoldering" H 8400 3900 60  0001 C CNN
+F 3 "" H 8400 3900 60  0001 C CNN
+	1    8400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 H10
+U 1 1 547B59CC
+P 9250 3600
+F 0 "H10" V 9200 3600 60  0000 C CNN
+F 1 "FTDI" V 9300 3600 60  0000 C CNN
+F 2 "MAPone.pretty:Header_FTDI" H 9250 3600 60  0001 C CNN
+F 3 "" H 9250 3600 60  0001 C CNN
+	1    9250 3600
+	1    0    0    -1  
+$EndComp
+Text Label 8050 3350 2    40   ~ 0
+GND
+Text Label 8050 3750 2    40   ~ 0
+TXD
+Text Label 8050 3650 2    40   ~ 0
+RXD
+NoConn ~ 7175 4025
+NoConn ~ 7175 4125
+$Comp
+L PWR_FLAG #FLG012
+U 1 1 547B5C97
+P 3000 3275
+F 0 "#FLG012" H 3000 3545 30  0001 C CNN
+F 1 "PWR_FLAG" H 3000 3505 30  0000 C CNN
+F 2 "" H 3000 3275 60  0000 C CNN
+F 3 "" H 3000 3275 60  0000 C CNN
+	1    3000 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3275 3000 3475
+Connection ~ 3000 3475
+Wire Wire Line
+	2150 4375 2150 4550
+Connection ~ 2150 4550
+Wire Wire Line
+	6725 3625 7575 3625
+Wire Wire Line
+	7575 3625 7575 3900
+$Comp
+L CONN_1 P6
+U 1 1 547C2D6B
+P 6200 6725
+F 0 "P6" V 6275 6725 40  0000 L CNN
+F 1 "CONN_1" H 6200 6780 30  0001 C CNN
+F 2 "MAPone.pretty:vite_3mm" H 6200 6725 60  0001 C CNN
+F 3 "" H 6200 6725 60  0001 C CNN
+	1    6200 6725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P5
+U 1 1 547C2D72
+P 6000 6725
+F 0 "P5" V 6075 6725 40  0000 L CNN
+F 1 "CONN_1" H 6000 6780 30  0001 C CNN
+F 2 "MAPone.pretty:vite_3mm" H 6000 6725 60  0001 C CNN
+F 3 "" H 6000 6725 60  0001 C CNN
+	1    6000 6725
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	5850 7425 5850 6525
+Wire Notes Line
+	5850 6525 6700 6525
+Wire Notes Line
+	6700 6525 6700 7425
+Wire Notes Line
+	6700 7425 5850 7425
+Text Notes 5850 6500 0    60   Italic 12
+MOUNT HOLES
+NoConn ~ 6000 6875
+NoConn ~ 6200 6875
+$EndSCHEMATC
