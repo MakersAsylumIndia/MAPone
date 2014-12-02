@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201411181401+5290~19~ubuntu14.10.1-product   date = Monday 01 December 2014 12:25:34 PM IST
+Cmp-Mod V01 Created by Cvpcb (2014-12-01 BZR 5309)-product   date = Tue Dec  2 16:15:36 2014
 
 BeginCmp
 TimeStamp = /546B83D4;
@@ -102,7 +102,7 @@ BeginCmp
 TimeStamp = /547AF343/547B4A40;
 Reference = D4;
 ValeurCmp = LED_USB;
-IdModule  = MAPone.pretty:LED-3MM;
+IdModule  = MAPone.pretty:LED-0805;
 EndCmp
 
 BeginCmp
@@ -172,7 +172,7 @@ BeginCmp
 TimeStamp = /547AF343/547B59CC;
 Reference = H10;
 ValeurCmp = FTDI;
-IdModule  = MAPone.pretty:Header_FTDI;
+IdModule  = MAPone.pretty:Socket_Strip_Angled_1x06;
 EndCmp
 
 BeginCmp
@@ -225,29 +225,15 @@ IdModule  = MAPone.pretty:vite_3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /547AF343/547C11DB;
+TimeStamp = /547AF343/547C2D72;
 Reference = P5;
 ValeurCmp = CONN_1;
 IdModule  = MAPone.pretty:vite_3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /547AF343/547C11D4;
+TimeStamp = /547AF343/547C2D6B;
 Reference = P6;
-ValeurCmp = CONN_1;
-IdModule  = MAPone.pretty:vite_3mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /547AF343/547C11E7;
-Reference = P7;
-ValeurCmp = CONN_1;
-IdModule  = MAPone.pretty:vite_3mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /547AF343/547C11EE;
-Reference = P8;
 ValeurCmp = CONN_1;
 IdModule  = MAPone.pretty:vite_3mm;
 EndCmp
@@ -337,13 +323,6 @@ IdModule  = MAPone.pretty:MA_Logo2;
 EndCmp
 
 BeginCmp
-TimeStamp = /547C2256;
-Reference = Z4;
-ValeurCmp = CONN_1;
-IdModule  = MAPone.pretty:MA_Logo2;
-EndCmp
-
-BeginCmp
 TimeStamp = /547C1CA4;
 Reference = Z5;
 ValeurCmp = CONN_1;
@@ -360,13 +339,6 @@ EndCmp
 BeginCmp
 TimeStamp = /547C1CAF;
 Reference = Z7;
-ValeurCmp = CONN_1;
-IdModule  = MAPone:OSHW_6mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /547C1CB5;
-Reference = Z8;
 ValeurCmp = CONN_1;
 IdModule  = MAPone:OSHW_6mm;
 EndCmp

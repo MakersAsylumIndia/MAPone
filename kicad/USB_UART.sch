@@ -37,10 +37,6 @@ Text Label 5325 3575 0    40   ~ 0
 D-
 Text Label 5050 4550 0    40   ~ 0
 GND_U
-Text Label 7175 4125 2    40   ~ 0
-CTS
-Text Label 7175 4025 2    40   ~ 0
-RTS
 Text Label 7175 3925 2    40   ~ 0
 RXD
 Text Label 7175 3825 2    40   ~ 0
@@ -110,10 +106,6 @@ Wire Wire Line
 	5325 4550 4225 4550
 Connection ~ 5325 4125
 Wire Wire Line
-	6725 4125 7175 4125
-Wire Wire Line
-	6725 4025 7175 4025
-Wire Wire Line
 	6725 3925 7175 3925
 Wire Wire Line
 	6725 3825 7175 3825
@@ -173,7 +165,7 @@ U 1 1 547B4A40
 P 4225 4025
 F 0 "D4" V 4100 3950 50  0000 C CNN
 F 1 "LED_USB" H 4225 4175 50  0000 C CNN
-F 2 "MAPone.pretty:LED-3MM" H 4295 4025 60  0001 C CNN
+F 2 "MAPone.pretty:LED-0805" H 4295 4025 60  0001 C CNN
 F 3 "" H 4295 4025 60  0000 C CNN
 	1    4225 4025
 	0    1    1    0   
@@ -233,19 +225,17 @@ U 1 1 547B59CC
 P 9250 3600
 F 0 "H10" V 9200 3600 60  0000 C CNN
 F 1 "FTDI" V 9300 3600 60  0000 C CNN
-F 2 "MAPone.pretty:Header_FTDI" H 9250 3600 60  0001 C CNN
+F 2 "MAPone.pretty:Socket_Strip_Angled_1x06" H 9250 3600 60  0001 C CNN
 F 3 "" H 9250 3600 60  0001 C CNN
 	1    9250 3600
 	1    0    0    -1  
 $EndComp
 Text Label 8050 3350 2    40   ~ 0
 GND_U
-Text Label 8050 3750 2    40   ~ 0
-TXD
 Text Label 8050 3650 2    40   ~ 0
+TXD
+Text Label 8050 3750 2    40   ~ 0
 RXD
-NoConn ~ 7175 4025
-NoConn ~ 7175 4125
 $Comp
 L PWR_FLAG #FLG012
 U 1 1 547B5C97
@@ -315,4 +305,6 @@ $EndComp
 Wire Wire Line
 	1425 4550 1425 4450
 Connection ~ 1575 4550
+NoConn ~ 6725 4025
+NoConn ~ 6725 4125
 $EndSCHEMATC
