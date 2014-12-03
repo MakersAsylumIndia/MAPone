@@ -1,7 +1,4 @@
 M48
-;DRILL file {kicad 0.201411181401+5290~19~ubuntu14.10.1-product} date Tuesday 02 December 2014 11:12:46 PM IST
-;FORMAT={-:-/ absolute / inch / decimal}
-FMAT,2
 INCH,TZ
 T1C0.032
 T2C0.040
@@ -12,7 +9,6 @@ T6C0.100
 %
 G90
 G05
-M72
 T1
 X1.3744Y-1.5736
 X1.4744Y-1.5736
